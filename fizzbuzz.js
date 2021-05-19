@@ -1,5 +1,5 @@
 let i = 1;
-const list = document.querySelector('#list');
+const sequence = document.querySelector('#sequence');
 
 const addListItem = (string) => {
     const element = document.createElement('li');
@@ -13,7 +13,7 @@ const addListItem = (string) => {
         element.classList.add('fizzbuzz');
     }
 
-    list.appendChild(element);
+    sequence.appendChild(element);
 }
 
 for (i = 1; i <= 100; i++) {
